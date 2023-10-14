@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café de Altura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        img {
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        td {
+            width: 33.3%;
+        }
+        form, .container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="center">Café de altura</h2>
+    <ul class="center">
+        <li>Tienda</li>
+        <li>Suscripción</li>
+        <li>Para Empresa</li>
+        <li>Sobre nosotros</li>
+        <li>Contacto</li>
+    </ul>
+    <p class="center"><b>+34919490518</b></p>
+    <hr>
+    <div class="container">
+        <div>
+            <h3>De la planta a tu taza</h3>
+            <h2>El mejor café del mundo, ahora en tu casa</h2>
+            <p>Trabajamos con los mejores agricultores del mundo para seleccionar los mejores granos de café y que puedas viajar desde la comodidad de tu hogar.</p>
+            <button>Descubrir orígenes</button>
+            <button>Comprar café</button>
+        </div>
+        
+
+        <img src="mainSection.jpg" alt="café" width="300">
+    </div>
+    <form action="formulario" class="center">
+        <label for="Nombre Completo"><b>Nombre Completo</b></label>
+        <input type="text" placeholder="Nombre Completo">
+        <br>
+        <label for="Correo"><b>Email</b></label>
+        <input type="email" placeholder="Correo">
+        <br>
+        <label for="Telefono"><b>Teléfono</b></label>
+        <input type="tel" placeholder="Teléfono">
+        <br>
+        <label for="Dudas"><b>Dudas</b></label>
+        <textarea name="Dudas" id="dudas" cols="30" rows="10" placeholder="Tienes algunas dudas"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <table>
+        <tr>
+            <td>Café de altura<br>Te ayudamos en<br><b>+34 919 49 05 18</b><br>hola@cafeDeAltura.com</td>
+            <td>Tienda<br>Suscripción<br>Para Empresa<br>Sobre Nosotros<br>Contacto</td>
+            <td>Política de privacidad<br>Política de cookies<br>Términos y condiciones</td>
+        </tr>
+    </table>
+</body>
+</html>

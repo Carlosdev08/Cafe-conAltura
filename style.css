@@ -1,0 +1,40 @@
+
+
+.coffee-section {
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.image {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.text-content {
+  flex-grow: 1;
+}
+
+.highlighted-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px; /* Espacio entre botones */
+}
+
